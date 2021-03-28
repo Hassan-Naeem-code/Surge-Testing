@@ -33,4 +33,4 @@ jobs:
       - name: Install NodeJS
         run: npm install -g surge
       - name: Run Surge
-        run: surge ./ officemodule.surge.sh --token ${{secret.SURGE_TOKEN}}
+        run: surge ./ officemodule.surge.sh --token ${{secrets.SURGE_TOKEN}}
